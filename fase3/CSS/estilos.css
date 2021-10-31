@@ -5,29 +5,34 @@
 ul{
     list-style: none;
 }
+
 a{
     text-decoration: none;
 }
+
 header{
     background-color:#082032;
     font-size:x-large;
     text-align: center; 
     color: blanchedalmond; 
 }
+
 nav{
     color: blanchedalmond;
     background: #334756;
     text-align: center;  
 }
+
 nav .menu{
     display:flex;
     justify-content: center;
-
 }
+
 nav .menu li {
     position: relative;
     top: 130%;
 }
+
 nav .menu li a {
     display: block;
     padding: 10px;
@@ -35,12 +40,13 @@ nav .menu li a {
     color: white;
     transition: all 300ms ease;
     padding: 15px;
-
 }
+
 nav .menu li a:hover{
     background: transparent;
     color: #F0A500;
 }
+
 nav .submenu li {
     position:absolute;
     top: 130%;
@@ -54,8 +60,8 @@ nav .menu li:hover .submenu li {
     visibility: visible;
     opacity: 1;
     position: relative;
-
 }
+
 section{    
     background-color:#F0A500;
     grid-column: 1/4;
@@ -78,17 +84,18 @@ aside{
     background-color: #F0A500;
     grid-column: 4/5;
 }
+
 footer{
     background-color: #082032;
     color: blanchedalmond;
 }
+
 footer h5 {
     display: flex;
     justify-content: center;
 }
+
 main{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
 }
-
-
